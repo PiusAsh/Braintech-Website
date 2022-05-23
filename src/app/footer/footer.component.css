@@ -1,0 +1,29 @@
+.logoImg{
+    width: 150px;
+}
+.footerSection{
+    background-image: url(/assets/images/footer.jpg);
+}
+
+.footerText{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.footerDes{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins',
+    sans-serif;
+}
+
+.footerLnk{
+    text-decoration: none;
+    color: white;
+}
+
+.footerH1{
+    color: white;
+}

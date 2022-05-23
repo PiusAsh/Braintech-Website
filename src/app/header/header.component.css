@@ -1,0 +1,15 @@
+.navbar{
+    background-color: white;
+    height: 10vh;
+}
+.nav-link{
+    color: #0A53C2!important;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Poppins',
+    sans-serif;
+
+}
+.logoImg{
+    width: 150px;
+}
