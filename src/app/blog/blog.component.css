@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap');
+
+.fw-bolder,
+.small-text,
+.lead,
+.card-title, .card-text, .text-muted, .card-body, li, .card-header, .page-link, ul{
+    font-family: 'Mulish',
+    sans-serif;
+    text-decoration: none;
+}
+.listName {
+text-decoration: none;
+color: #00057A;
+font-weight: 500;
+}
+
+.btn1 {
+  color: white;
+  background-color: #00057A;
+  border: 1px solid white;
+  /* padding: 8px 15px 8px 15px!important; */
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-family: 'Mulish',
+    sans-serif;
+    text-decoration: none;
+    border-radius: 6px;
+
+}
+.h66 {
+  color: #00057A;
+  font-weight: bolder;
+  font-family: 'Mulish',
+    sans-serif;
+}
+
+.hero {
+  background-image: url(src/assets/images/about-2.jpg) !important;
+  background-size: cover;
+  align-items: center;
+}
+.page-link{
+
+    color: #00057A!important;
+    font-weight: 500;
+}
+.active{
+background-color: #00057A;
+color: white;
+font-family: 'Mulish',
+sans-serif;
+}
+.shadow-sm{
+    font-weight: 600;
+}
+
+

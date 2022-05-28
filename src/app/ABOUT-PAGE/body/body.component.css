@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap');
+
+.with-pattern {
+  position: relative;
+}
+
+.with-pattern::before {
+  content: '';
+  display: block;
+  width: 40vw;
+  padding-bottom: 15%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(src/assets/images/pattern.svg) repeat;
+  background-size: 20rem;
+  background-position: top left;
+  opacity: 0.07;
+}
+
+.with-pattern-full {
+  position: relative;
+  overflow: hidden;
+}
+
+.pulled-up-section {
+  margin-top: -4rem;
+}
+.with-pattern-full::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(src/assets/images/pattern.svg) repeat;
+  background-size: 20rem;
+  background-position: top left;
+  opacity: 0.04;
+}
+
+.numeric-block {
+  position: relative;
+}
+.pull{
+    background-color: #00047ace;
+}
+.h66{
+    color: #00057A!important;
+    font-family: 'Mulish',
+    sans-serif;
+}
+
+.numeric-block-count {
+  position: absolute;
+  color: #00057A;
+  top: -1rem;
+  left: 0;
+  font-size: 6rem;
+  font-weight: 700;
+  opacity: 0.2;
+  z-index: -1;
+  line-height: 1;
+  font-family: 'Mulish',
+  sans-serif;
+}
+.img-gradient {
+  position: relative;
+  z-index: 99;
+}
+
+.img-gradient::before {
+  content: '';
+  display: block;
+  width: 100%;
+  padding-bottom: 30%;
+  position: absolute;
+  bottom: -2rem;
+  left: -2rem;
+  background: linear-gradient(45deg, #3bcd98, #2baa7c);
+  border-radius: 0.25rem;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.img-gradient-left::before,
+.img-gradient-right::before {
+  width: 70%;
+  height: 70%;
+  padding-bottom: 0;
+}
+
+.img-gradient-right::before {
+  left: auto;
+  right: -2rem;
+}
+.video-block {
+  position: relative;
+}
+
+.video-block .video-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video-btn {
+  transition: all 0.3s;
+  position: relative;
+  z-index: 99;
+}
+
+.mb-2,
+.text-muted,
+.h6,
+.mb-1,
+.fw-bold,
+.numeric-block-count, .text-sm {
+  font-family: 'Mulish',
+  sans-serif;
+}

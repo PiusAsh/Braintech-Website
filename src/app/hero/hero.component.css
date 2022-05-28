@@ -1,3 +1,85 @@
-.hero{
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap');
 
+.hero{
+background-image: url(src/assets/images/banner-6.jpg)!important;
+background-size: cover;
+align-items: center;
+
+}
+.move{
+   padding: 20px;
+   margin-top: -80px;
+   z-index: 6;
+}
+
+h2{
+font-family: 'Mulish',
+sans-serif;
+font-weight: 700;
+}
+p{
+    font-family: 'Mulish',
+    sans-serif;
+}
+
+.headText{
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Mulish',
+    sans-serif;
+}
+.heroText{
+    color: white;
+    font-size: 20px;
+    font-family: 'Mulish',
+    sans-serif;
+}
+.btn11{
+    color: #00057A;
+    background-color: white!important;
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+    border: none;
+    border-radius: 10px 0px 10px 0px;
+    font-family: 'Mulish',
+    sans-serif;
+
+}
+
+.weText{
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Mulish',
+    sans-serif;
+}
+.weText1{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Mulish',
+    sans-serif;
+}
+.fBg{
+    padding: 15px;
+    font-family: 'Mulish',
+    sans-serif;
+}
+
+.lightText{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Mulish',
+    sans-serif;
+}
+.thisSection{
+background-image:url(/assets/images/about-2.jpg);
+background-size: contain;
+}
+
+.newt{
+    background-color: white;
 }

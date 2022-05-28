@@ -1,0 +1,35 @@
+.mb-1, .mb-2, .mb-3{
+    font-family: 'Mulish',
+    sans-serif;
+}
+.btn1 {
+  color: white;
+  background-color: #00057A;
+  border: 1px solid white;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  border-radius: 6px;
+  font-family: 'Mulish',
+    sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: 'Mulish',
+    sans-serif;
+}
+.text-muted{
+    font-family: 'Mulish',
+    sans-serif;
+}
+.bgprimary{
+    color: #00057A;
+}
+
+
+
+
+

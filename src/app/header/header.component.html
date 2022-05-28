@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+<nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand px-4" href="#"><img class="logoImg" src="./assets/images/lg.png" alt="logo"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -8,34 +8,88 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" a routerLink="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" a routerLink="about">About</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link">Services</a>
+          <a class="nav-link" a routerLink="services">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link">Blog</a>
+          <a class="nav-link" a routerLink="blog">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link">Contact us</a>
+          <a class="nav-link" a routerLink="contact">Contact us</a>
         </li>
       </ul>
-      <div class="d-flex">
-          <ul>
-<i class="fa-brands fa-linkedin-in"></i>
-          </ul>
-          <ul>
-<i class="fa-brands fa-linkedin-in"></i>
-          </ul>
-          <ul>
-              
-<i class="fa-brands fa-linkedin-in"></i>
-          </ul>
+      <div class="d-flex px-4">
+<div class="btn1" type="button" data-bs-target="#quoteForm" data-bs-toggle="modal">Get a Quote</div>
       </div>
     </div>
   </div>
 </nav>
+<!-- GET a QUOTE MODAL -->
+<div class="modal fade" id="quoteForm" tabindex="-1" role="dialog" aria-labelledby="quoteForm" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content p-md-3">
+      <div class="modal-header border-0">
+        <h4 class="modal-title">Request a <span class="text-primary">quote</span></h4>
+        <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="#">
+          <div class="row gy-3">
+            <div class="col-lg-6">
+              <label class="form-label text-sm" for="firstname">First name<span
+                  class="text-primary ms-1">&#42;</span></label>
+              <input class="form-control" id="firstname" type="text" placeholder="Enter your first name" required>
+            </div>
+            <div class="col-lg-6">
+              <label class="form-label text-sm" for="lastname">Last name<span
+                  class="text-primary ms-1">&#42;</span></label>
+              <input class="form-control" id="lastname" type="text" placeholder="Enter your last name" required>
+            </div>
+            <div class="col-lg-12">
+              <label class="form-label text-sm" for="email">Email address<span
+                  class="text-primary ms-1">&#42;</span></label>
+              <input class="form-control" id="email" type="email" placeholder="Enter your email address" required>
+            </div>
+            <div class="col-lg-6">
+              <label class="form-label text-sm" for="phone">Phone number <small
+                  class="fw-light small text-gray">optional</small></label>
+              <input class="form-control" id="phone" type="tel" placeholder="Enter your phone number">
+            </div>
+            <div class="col-lg-6">
+              <label class="form-label text-sm" for="projecttype">Project type<span
+                  class="text-primary ms-1">&#42;</span></label>
+              <input class="form-control" id="projecttype" type="text" placeholder="Enter your project type" required>
+            </div>
+            <div class="col-lg-6">
+              <label class="form-label text-sm" for="budget">Estimated budget<span
+                  class="text-primary ms-1">&#42;</span></label>
+              <input class="form-control" id="budget" type="text" placeholder="Enter your estimated budget"
+                required><small class="form-text text-gray-500 ms-3">Project budget in $</small>
+            </div>
+            <div class="col-lg-6">
+              <label class="form-label text-sm" for="timeframe">Time frame<span
+                  class="text-primary ms-1">&#42;</span></label>
+              <input class="form-control" id="timeframe" type="text" placeholder="Maximum time for the project"
+                required>
+            </div>
+            <div class="col-lg-12">
+              <label class="form-label text-sm" for="projectdetail">Project details<span
+                  class="text-primary ms-1">&#42;</span></label>
+              <textarea class="form-control" id="projectdetail" rows="5"
+                placeholder="Provide a short brief about your project" required></textarea>
+            </div>
+            <div class="col-lg-12">
+              <button class="btn btn-primary" type="submit">Submit your request</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
